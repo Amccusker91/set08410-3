@@ -84,8 +84,8 @@ function showQuestions(index){
      }
 }
 
-let thumbsupIcon = '<div class="icon correct"><i class="fas fa-thumbs-up"></i></div>';
-let thumbsdownIcon = '<div class="icon incorrect"><i class="fas fa-thumbs-down"></i></div>';
+let thumbsupIcon = '<i class="material-icons">thumb_up</i></div>';
+let thumbsdownIcon = '<i class="material-icons">thumb_down</i></div>';
 
 function optionSelected(answer){
      let userAns = answer.textContent;
