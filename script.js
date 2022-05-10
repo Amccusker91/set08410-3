@@ -114,12 +114,12 @@ function showResultBox(){
      quiz_box.classList.remove("startQuiz");
      result_box.classList.add("quizResult");
      const scoreText = result_box.querySelector(".final_score");
-     if(userScore > 5){
-          let scoretag = '<span>You are a Cyber Specalist! '+ userScore + ' out of 10 </span>';
+     if(userScore > 7){
+          let scoretag = '<span>You are a Cyber Master!  '+ userScore + ' out of 10 </span>';
           scoreText.innerHTML = scoretag;
      }
-     else if(userScore > 7){
-          let scoretag = '<span>You are a Cyber Master! '+ userScore + ' out of 10</span>';
+     else if(userScore > 6){
+          let scoretag = '<span>You are a Cyber Specalist! '+ userScore + ' out of 10</span>';
           scoreText.innerHTML = scoretag;
      }
      else{
