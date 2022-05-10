@@ -118,7 +118,7 @@ function showResultBox(){
           let scoretag = '<span>You are a Cyber Master!  '+ userScore + ' out of 10 </span>';
           scoreText.innerHTML = scoretag;
      }
-     else if(userScore > 6){
+     else if(userScore > 5){
           let scoretag = '<span>You are a Cyber Specalist! '+ userScore + ' out of 10</span>';
           scoreText.innerHTML = scoretag;
      }
